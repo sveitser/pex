@@ -7,5 +7,4 @@ __version__ = '1.2.1'
 # include the `packaging` package in the `.bootstrap/` code since we use
 # `packaging.specifiers.SpecifierSet` - indirectly - through `pkg_resources.Requirement.specifier`.
 SETUPTOOLS_REQUIREMENT = 'setuptools>=20.0,<34.0'
-
 WHEEL_REQUIREMENT = 'wheel>=0.26.0,<0.30.0'
